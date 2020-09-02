@@ -25,7 +25,16 @@ namespace Checkout.MerchantAPI.Controllers
 
 
         // GET: api/<PaymentController>/transactions
+        /// <summary>
+        /// Get payment transaction by Id. Filters by merchant's unique code
+        /// </summary>
+        /// <param name="id">Id for each payment record</param>
+        /// <returns></returns>
         [HttpGet("transactions/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult GetTransaction(int id)
         {
             var merchantCode = Request.Headers["merchantCode"].ToString();
@@ -52,7 +61,15 @@ namespace Checkout.MerchantAPI.Controllers
         }
 
         // POST api/<PaymentController>/process
+        /// <summary>
+        /// Process payment for a particular merchant
+        /// </summary>
+        /// <param name="paymentModel">Model contains what is required to make payment such as card number, expiry month/date, amount, currency, cvv and shopper's unique identifier</param>
+        /// <returns></returns>
         [HttpPost("process")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult ProcessPayment([FromBody] PaymentModel paymentModel)
         {
             var merchantCode = Request.Headers["merchantCode"].ToString();

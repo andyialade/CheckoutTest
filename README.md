@@ -12,7 +12,6 @@ be 'AMAUK' to signify the merchant abbreviation and country code as this could b
 
 ### Improvements
  - More Logging
- - Add Swagger for API documentation
  - More Test around card details
  - More Validation around card details
  - Use async methods in api
