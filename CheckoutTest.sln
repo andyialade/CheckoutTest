@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.MerchantAPI", "Checkout.MerchantAPI\Checkout.MerchantAPI.csproj", "{FFB6C923-252D-448B-BDE2-C76C9598ADAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Domain", "Checkout.Domain\Checkout.Domain.csproj", "{65394706-6E7C-456B-A972-9E1BB7BFE49A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Services", "Checkout.Services\Checkout.Services.csproj", "{DF516872-8942-4EE1-839E-B446E9E41BDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Data", "Checkout.Data\Checkout.Data.csproj", "{24250583-BD61-4D82-95D8-46FC2FF257B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Services.Tests", "Checkout.Services.Tests\Checkout.Services.Tests.csproj", "{C3750834-0592-4FA9-BDEB-4DBD8A68BE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.MerchantAPI.Tests", "Checkout.MerchantAPI.Tests\Checkout.MerchantAPI.Tests.csproj", "{ADB9F327-F2A0-4D50-BBBE-0C105A3A8156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB6C923-252D-448B-BDE2-C76C9598ADAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB6C923-252D-448B-BDE2-C76C9598ADAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB6C923-252D-448B-BDE2-C76C9598ADAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB6C923-252D-448B-BDE2-C76C9598ADAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65394706-6E7C-456B-A972-9E1BB7BFE49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65394706-6E7C-456B-A972-9E1BB7BFE49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65394706-6E7C-456B-A972-9E1BB7BFE49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65394706-6E7C-456B-A972-9E1BB7BFE49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF516872-8942-4EE1-839E-B446E9E41BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF516872-8942-4EE1-839E-B446E9E41BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF516872-8942-4EE1-839E-B446E9E41BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF516872-8942-4EE1-839E-B446E9E41BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24250583-BD61-4D82-95D8-46FC2FF257B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24250583-BD61-4D82-95D8-46FC2FF257B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24250583-BD61-4D82-95D8-46FC2FF257B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24250583-BD61-4D82-95D8-46FC2FF257B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3750834-0592-4FA9-BDEB-4DBD8A68BE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3750834-0592-4FA9-BDEB-4DBD8A68BE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3750834-0592-4FA9-BDEB-4DBD8A68BE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3750834-0592-4FA9-BDEB-4DBD8A68BE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB9F327-F2A0-4D50-BBBE-0C105A3A8156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB9F327-F2A0-4D50-BBBE-0C105A3A8156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB9F327-F2A0-4D50-BBBE-0C105A3A8156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB9F327-F2A0-4D50-BBBE-0C105A3A8156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64E3A57C-D401-475D-B07D-99D4F6115192}
+	EndGlobalSection
+EndGlobal
